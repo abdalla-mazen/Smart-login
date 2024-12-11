@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body >
+    
+    <section  class=" w-50 m-auto p-5 my-3" >
+
+        <h1 class="text-center ">Smart Login System</h1>
+        
+        <!-- <form action=""> -->
+
+
+            <div class="">
+                <label for="nameinput" class="form-label"></label>
+                <input type="text" class="form-control shadow-none" id="nameinput" placeholder="Enter your name">
+             
+              </div>
+            <div class="">
+                <label for="emailinput" class="form-label"></label>
+                <input type="email" class="form-control shadow-none" id="emailinput" placeholder="Enter your email">
+              </div>
+        
+        
+            <div class="mb-3 position-relative">
+                <label for="passwordinput" class="form-label"></label>
+                <input type="password" class="form-control shadow-none" id="passwordinput" placeholder="Enter your password">
+                <i class="fa-solid fa-eye position-absolute eye"  id="eye"></i>
+              </div>
+        
+        
+              <button onclick="addUser()" class="btn btn-outline-info w-100">Sign Up </button>
+        
+        <!-- </form> -->
+        
+        <p class="py-3 text-center text-white">You have an account? <a href="index.html" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover  text-white">Signin </a></p>
+        </section>
+        
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="js/signup.js"></script>
+
+</body>
+</html>

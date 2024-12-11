@@ -1,0 +1,46 @@
+body{
+    background-color:#24353f; 
+}
+section,
+.main{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8;
+}
+input{
+    --bs-body-bg: transparent;
+    --bs-body-color: white;
+    --bs-border-color:    #CED4DA;
+    --bs-secondary-color:#ced4da;
+}
+.btn-outline-info {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+a:hover{
+    --bs-link-hover-color-rgb: white;
+}
+
+.eye{
+    left: 100%;
+    transform: translate(-165%);
+    top: 55%;
+    color: white;
+}
+
+
+/* ********************************************** */
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #24353f !important;
+    
+}
+
+.navbar-brand {
+  
+    --bs-navbar-brand-color:white;
+    
+}
